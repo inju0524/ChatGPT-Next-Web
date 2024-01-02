@@ -73,7 +73,7 @@ const cn = {
       }
       return inputHints + "，/ 触发补全，: 触发命令";
     },
-    Send: "发送",
+    Send: "GO",
     Config: {
       Reset: "清除记忆",
       SaveAs: "存为面具",
@@ -391,7 +391,7 @@ const cn = {
     Sysmessage: "你是一个助手",
   },
   Mask: {
-    Name: "面具",
+    Name: "预设角色",
     Page: {
       Title: "预设角色面具",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
